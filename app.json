@@ -1,0 +1,13 @@
+{
+  "name": "React Markdown",
+  "description": "React Markdown Application",
+  "keywords": [ "react", "reactjs", "markdown" ],
+  "repository": "",
+  "logo": "",
+  "website": "",
+  "success_url": "/",
+  "env" : {
+    "BUILDPACK_URL": ""
+  }
+}
+

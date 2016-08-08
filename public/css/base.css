@@ -1,0 +1,161 @@
+body {
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 30px;
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+  font-size: 12px;
+  margin: 0 2px;
+  padding: 0 5px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+h1 {
+  border-bottom: 1px solid #ddd;
+  font-size: 2.5em;
+}
+
+h2 {
+  border-bottom: 1px solid #eee;
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+p, ul {
+  margin: 15px 0;
+}
+
+ul {
+  padding-left: 30px;
+}
+
+table, th, td {
+ border: 1px solid #eee;
+}
+
+#content {
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  box-sizing: border-box;
+}
+.wrapper:before,
+.wrapper:after {
+  display: table;
+  content: " ";
+}
+.wrapper:after {
+  clear: both;
+}
+
+.input_block {
+  width: 50%;
+  float: left;
+  height: 100%;
+  padding: 10px;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+.display_block {
+  width: 50%;
+  float: left;
+  height: 100%;
+  padding: 10px;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+#form_block {
+}
+#form_block input[type="text"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  font-size: 2em;
+  padding: 7px 20px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+#form_block textarea {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+#form_block input[type="submit"] {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  width: 100%;
+  background-color: #39ce3f;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+  padding: 10px;
+}
+.display_block {
+}
+.display_block .display_subject {
+  font-style: italic;
+}
+.display_block .display_body {
+  color: #666;
+}
+
+/*
+ *<div id="content">
+    <div data-reactroot="" class="wrapper">
+      <div class="input_block">
+        <form id="form_block" class="">
+          <input type="text" placeholder="Subject" value="">
+          <textarea type="text"></textarea>
+          <input type="submit" value="Post">
+        </form>
+      </div>
+      <div class="display_block">
+        <h2 class="display_subject">adfasfasdf</h2>
+        <div class="display_body">
+          <p>jiadfasdfadfadfad</p>
+          <h1>test</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+ */
